@@ -1,0 +1,9 @@
+Twoim zadaniem jest napisanie prostej aplikacji TODO w FastAPI i SQLAlchemy. Aplikacja powinna umożliwiać użytkownikom zapisywanie, odczytywanie, oznaczanie jako ukończone oraz filtrowanie zadań na podstawie ich statusu.
+Aplikacja powinna mieć cztery podstawowe funkcjonalności:
+
+1. Zapisywanie zadania: Użytkownicy powinni móc dodać nowe zadanie do listy. Każde zadanie powinno składać się z tytułu, opisu i daty utworzenia. Nowe zadanie powinno być zapisywane w bazie danych za pomocą SQLAlchemy.
+2. Odczytywanie zadania: Użytkownicy powinni mieć możliwość wyświetlenia listy zadań wraz z ich szczegółami, takimi jak tytuł, opis i status ukończenia. Aplikacja powinna udostępniać odpowiedni endpoint do pobierania wszystkich zadań.
+3. Oznaczanie zadania jako ukończone: Użytkownicy powinni móc oznaczyć zadanie jako ukończone. Aplikacja powinna udostępniać odpowiedni endpoint, który pozwala na zmianę statusu zadania na ukończone.
+4. Filtrowanie zadań po statusie: Użytkownicy powinni móc wyświetlić tylko te zadania, które są ukończone lub tylko te, które nie są ukończone. Aplikacja powinna udostępniać odpowiednie endpointy, które pozwalają na filtrowanie zadań na podstawie statusu.
+
+Twoim zadaniem jest napisanie kodu aplikacji, który będzie spełniał powyższe wymagania. Kod powinien być napisany w języku Python z użyciem frameworka FastAPI i biblioteki SQLAlchemy.
