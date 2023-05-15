@@ -35,9 +35,6 @@ def WykonajZadanie(ZmienianeID):
     session.commit() 
 
 #Endpointy
-@app.get("/")
-def root():
-    return {"Działa": "Chyba"}
 @app.get("/Zadania/Zrobione")
 async def Zrobione():
     return WyswietlWykonanieZadania(True)
@@ -53,7 +50,6 @@ async def Wykonaj(ZmienianeID: int):
 @app.post("/Zadania/DodajZadanie/")
 async def Dodaj(Tytul: str, Opis: str):
     return DodajZadanie(Tytul, Opis)
-
 
 #Start serwera
 from uvicorn import run

@@ -10,7 +10,6 @@ def printBody(body):
         else:
             status = "do zrobienia"
         print(str(zadanie['ID_Zadania'])+". "+zadanie['Tytul']+" - "+status+"\n"+zadanie['Data']+"\n"+zadanie['Opis'])
-        
     print("\n")
 
     
